@@ -6,26 +6,15 @@
              mc:Ignorable="d"
              Shell.NavBarIsVisible="True"
              Shell.TabBarIsVisible="False"
-             Title="Login"
-             x:Class="FlyMeClone.Views.LoginPage">
+             Title="Registrace"
+             x:Class="FlyMeClone.Views.RegistracePage">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <StackLayout
-                    Orientation="Horizontal"
-                    Spacing="0"
-                    HorizontalOptions="Center">
-                <CheckBox
-                        x:Name="RememberCheck"
-                        VerticalOptions="Center" />
-                <Label
-                        Text="Remember Me"
-                        VerticalTextAlignment="Center" />
-            </StackLayout>
-            <Button Text="Login" Clicked="Button_Clicked"/>
-            <Button Text="Registrace" Clicked="Button_Clicked_1"/>
+            <Button Text="OK" Clicked="Button_Clicked"/>
+            <Button Text="Back" Clicked="Button_Clicked_1"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

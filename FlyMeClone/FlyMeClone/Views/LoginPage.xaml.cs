@@ -40,5 +40,10 @@ namespace FlyMeClone.Views
             await Shell.Current.GoToAsync("///home");
             Shell.SetFlyoutBehavior(Shell.Current, FlyoutBehavior.Flyout);
         }
+
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///registrace");
+        }
     }
 }

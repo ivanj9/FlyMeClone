@@ -30,10 +30,9 @@
     </Shell.Resources>
 
     <!-- Your Pages -->
-    <TabBar
-        Route="login">
-        <ShellContent Title="KOKO"
-            ContentTemplate="{DataTemplate local:LoginPage}" />
+    <TabBar>
+        <ShellContent Route="login" Title="Login" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent Route="registrace" Title="Registrace" ContentTemplate="{DataTemplate local:RegistracePage}" />
     </TabBar>
     <FlyoutItem Route="page1" Title="Page1">
         <ShellContent ContentTemplate="{DataTemplate local:Page1}" />
