@@ -16,8 +16,8 @@ namespace FlyMeClone
         {
             await SecureStorage.SetAsync(App.REMEMBER_ME, false.ToString());
             await Shell.Current.GoToAsync("///login");
-            Shell.SetFlyoutBehavior(Shell.Current, FlyoutBehavior.Disabled);
-            Shell.Current.FlyoutIsPresented = false;
+            //Shell.SetFlyoutBehavior(Shell.Current, FlyoutBehavior.Disabled);
+            //Shell.Current.FlyoutIsPresented = false;
         }
 
     }

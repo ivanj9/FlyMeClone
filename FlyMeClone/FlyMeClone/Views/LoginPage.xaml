@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              Shell.NavBarIsVisible="True"
              Shell.TabBarIsVisible="False"
+             
              Title="Login"
              x:Class="FlyMeClone.Views.LoginPage">
     <ContentPage.Content>
