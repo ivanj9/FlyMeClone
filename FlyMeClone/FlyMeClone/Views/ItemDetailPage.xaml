@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="FlyMeClone.Views.ItemDetailPage"
+             Visual="Material"
              Title="{Binding Title}">
 
     <StackLayout Spacing="20" Padding="15">

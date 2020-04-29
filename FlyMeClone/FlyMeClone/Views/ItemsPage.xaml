@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="FlyMeClone.Views.ItemsPage"
+             Visual="Material"
              Title="{Binding Title}"
              x:Name="BrowseItemsPage">
 

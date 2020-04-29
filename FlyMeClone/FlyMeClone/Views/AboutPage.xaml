@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="FlyMeClone.Views.AboutPage"
              xmlns:vm="clr-namespace:FlyMeClone.ViewModels"
+             Visual="Material"
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
